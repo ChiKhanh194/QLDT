@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý điểm sinh viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top-header">
+    <img src="logo.png" alt="PTIT Logo">
+    <div class="school-name">
+        <h1>HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG</h1>
+        <p>Posts and Telecommunications Institute of Technology</p>
+    </div>
+</header>
+
+<div class="container">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h2>HỌC KỲ</h2>
+        <ul>
+            <li class="active" onclick="loadSemester(1)">Học kỳ 1 - Năm học 2023 - 2024</li>
+            <li onclick="loadSemester(2)">Học kỳ 2 - Năm học 2023 - 2024</li>
+            <li onclick="loadSemester(3)">Học kỳ 1 - Năm học 2024 - 2025</li>
+            <li onclick="loadSemester(4)">Học kỳ 2 - Năm học 2024 - 2025</li>
+            <li onclick="loadSemester(5)">Học kỳ 3 - Năm học 2024 - 2025</li>
+            <li onclick="loadSemester(6)">Học kỳ 1 - Năm học 2025 - 2026</li>
+        </ul>
+        <hr>
+        <button onclick="logout()">Đăng xuất</button>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="content">
+        <h2 id="semesterTitle">Học kỳ 1</h2>
+
+        <!-- THÔNG TIN SINH VIÊN -->
+        <div id="studentInfo" class="student-info"></div>
+
+        <!-- BẢNG ĐIỂM -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Mã MH</th>
+                    <th>Tên môn</th>
+                    <th>Số TC</th>
+                    <th>Điểm (10)</th>
+                    <th>Điểm (4)</th>
+                    <th>Điểm chữ</th>
+                </tr>
+            </thead>
+            <tbody id="gradeTable"></tbody>
+        </table>
+        <button onclick="addSubject()">➕ Thêm môn</button>
+
+
+        <!-- TỔNG KẾT -->
+        <div class="summary">
+            <p>GPA học kỳ (4): <b id="gpaSemester">0.00</b></p>
+            <p>GPA tích lũy (4): <b id="gpaTotal">0.00</b></p>
+        </div>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<thead>
+<tr>
+    <th>Mã môn</th>
+    <th>Tên môn</th>
+    <th>Số tín chỉ</th>
+    <th>Điểm</th>
+    <th>Hệ 4</th>
+    <th>Chữ</th>
+    <th>Xóa</th>
+</tr>
+</thead>
