@@ -8,40 +8,38 @@ if (!users[currentUser]) location.href = "login.html";
 /* ===== DỮ LIỆU MẪU ===== */
 const defaultData = {
     1: [
-        { code: "BAS1105M", name: "Giáo dục quốc phòng", credit: 3, score: "" },
-        { code: "BAS1106", name: "Giáo dục thể chất 1", credit: 3, score: "" },
+    
         { code: "BAS1150", name: "Triết học Mác - Lênin", credit: 3, score: "" },
         { code: "BAS1201", name: "Đại số", credit: 3, score: "" },
         { code: "BAS1203", name: "Giải tích 1", credit: 3, score: "" },
-        { code: "INT1154", name: "Tin học cơ sở 1", credit: 3, score: "" }
+        { code: "INT1154", name: "Tin học cơ sở 1", credit: 2, score: "" }
     ],
     2: [
-        { code: "BAS1107", name: "Giáo dục thể chất 2", credit: 3, score: "" },
-        { code: "BAS1151", name: "Kinh tế chính trị Mác - Lênin", credit: 3, score: "" },
-        { code: "BAS1157", name: "Tiếng anh (Course 1)", credit: 3, score: "" },
+
+        { code: "BAS1151", name: "Kinh tế chính trị Mác - Lênin", credit: 2, score: "" },
+        { code: "BAS1157", name: "Tiếng anh (Course 1)", credit: 4, score: "" },
         { code: "BAS1204", name: "Giải tích 2", credit: 3, score: "" },
-        { code: "BAS1270", name: "Vật lý ứng dụng", credit: 3, score: "" },
-        { code: "BAS1221", name: "Pháp luật đại cương", credit: 3, score: "" },
-        { code: "ELE1433", name: "Kỹ thuật số", credit: 3, score: "" },
+        { code: "BAS1270", name: "Vật lý ứng dụng", credit: 4, score: "" },
+        { code: "BAS1221", name: "Pháp luật đại cương", credit: 2, score: "" },
+        { code: "ELE1433", name: "Kỹ thuật số", credit: 2, score: "" },
         { code: "INT1155", name: "Tin học cơ sở 2", credit: 3, score: "" }
     ],
     3: [
-        { code: "BAS1152", name: "Chủ nghĩa xã hội khoa học", credit: 3, score: "" },
-        { code: "BAS1158", name: "Tiếng anh (Course 2)", credit: 3, score: "" },
+        { code: "BAS1152", name: "Chủ nghĩa xã hội khoa học", credit: 2, score: "" },
+        { code: "BAS1158", name: "Tiếng anh (Course 2)", credit: 4, score: "" },
         { code: "BAS1269", name: "Xác suất thống kê", credit: 3, score: "" },
-        { code: "ELE1330", name: "Xử lý tín hiệu số", credit: 3, score: "" },
+        { code: "ELE1330", name: "Xử lý tín hiệu số", credit: 2, score: "" },
         { code: "INT1339", name: "Ngôn ngữ lập trình C++", credit: 3, score: "" },
-        { code: "INT1358", name: "Toán rời rạc 1", credit: 3, score: "" },
-        { code: "SKD101", name: "Kỹ năng thuyết trình", credit: 3, score: "" }
+        { code: "INT1358", name: "Toán rời rạc 1", credit: 3, score: "" }
+
     ],
     4: [
-        { code: "BAS1122", name: "Tư tưởng Hồ Chí Minh", credit: 3, score: "" },
-        { code: "BAS1159", name: "Tiếng anh (Course 3)", credit: 3, score: "" },
+        { code: "BAS1122", name: "Tư tưởng Hồ Chí Minh", credit: 2, score: "" },
+        { code: "BAS1159", name: "Tiếng anh (Course 3)", credit: 4, score: "" },
         { code: "ELE1319", name: "Lý thuyết thông tin", credit: 3, score: "" },
         { code: "INT1306", name: "Cấu trúc dữ liệu và giải thuật", credit: 3, score: "" },
         { code: "INT13145", name: "Kiến trúc máy tính", credit: 3, score: "" },
-        { code: "INT1359", name: "Toán rời rạc 2", credit: 3, score: "" },
-        { code: "SKD1102", name: "Kỹ năng làm việc nhóm", credit: 3, score: "" }
+        { code: "INT1359", name: "Toán rời rạc 2", credit: 3, score: "" }
     ],
     5: [{ code: "INT1332", name: "Lập trình OOP", credit: 3, score: "" }],
     6: [{ code: "INT1336", name: "Mạng máy tính", credit: 3, score: "" }]
