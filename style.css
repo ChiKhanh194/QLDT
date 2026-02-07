@@ -116,3 +116,16 @@ input {
 .container {
     min-height: calc(100vh - 94px);
 }
+.delete-btn {
+    background: #2e7d32;   /* xanh lá */
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-btn:hover {
+    opacity: 0.85;
+}
+
