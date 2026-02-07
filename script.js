@@ -97,7 +97,7 @@ function loadSemester(sem) {
             </td>
             <td>${m.score === "" ? "" : s4}</td>
             <td>${m.score === "" ? "" : letter}</td>
-            <td><button class="delete-btn" onclick="deleteSubject(${i})">❌</button></td>
+            <td><button class="delete-btn" onclick="deleteSubject(${i})">✅</button></td>
         </tr>`;
     });
 
@@ -173,3 +173,4 @@ function logout() {
 /* ===== INIT ===== */
 loadStudentInfo();
 loadSemester(1);
+
