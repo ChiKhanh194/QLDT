@@ -42,7 +42,9 @@ const defaultData = {
         { code: "INT1359", name: "Toán rời rạc 2", credit: 3, score: "" }
     ],
     5: [{ code: "INT1332", name: "Lập trình OOP", credit: 3, score: "" }],
-    6: [{ code: "INT1336", name: "Mạng máy tính", credit: 3, score: "" }]
+    6: [{ code: "INT1336", name: "Mạng máy tính", credit: 3, score: "" }],
+    7: [{ code: "INT1336", name: "Mạng máy tính", credit: 3, score: "" }
+    ]
 };
 
 /* ===== DATA RIÊNG CHO USER ===== */
